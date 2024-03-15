@@ -4,9 +4,27 @@ This GitHub CLI extension fetches the repositories of a GitHub organization, get
 
 ## Installation
 
-1. Install it with the GitHub CLI
+1. Clone this repository:
+
+```bash
+git clone https://github.com/homeles/gh-branch-protection-report.git
 ```
-gh extension install https://github.com/homeles/gh-branch-protection-report.git
+
+2. Navigate to the project directory:
+
+```bash
+cd gh-branch-protection-report
+```
+
+3. Install the dependencies:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+4. Make the script executable:
+```bash
+gh extension install .
 ```
 
 ## Usage
