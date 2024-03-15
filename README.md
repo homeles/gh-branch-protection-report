@@ -38,11 +38,6 @@ ORG_NAME=yourorgname
 
 2. Run the script:
 
-```py
-python3 gh-branch-protection-report --token yourgithubtoken --org yourorgname
-```
-
-Or
 ```bash
 gh branch-protection-report --token yourgithubtoken --org yourorgname
 ```
